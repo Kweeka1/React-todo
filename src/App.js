@@ -18,10 +18,10 @@ function App() {
     <div className="app-wrapper">
       <BrowserRouter>
         {
-        isSidebarActive
-          ? (<Sidebar handleSidebarClose={handleSidebarClose} />)
-          : (<List onClick={handleSidebarClose} className="sidebar-open" size={62} fill="#000" />)
-      }
+          isSidebarActive
+            ? (<Sidebar handleSidebarClose={handleSidebarClose} />)
+            : (<List onClick={handleSidebarClose} className="sidebar-open" size={62} fill="#000" />)
+        }
         <Routes>
           <Route path="/" element={<Todo />} />
           <Route path="/about/author" element={<About />} />
