@@ -1,0 +1,73 @@
+.todo {
+  padding: 4rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.todo-title {
+  margin-bottom: 2rem;
+}
+
+.todo-form {
+  min-width: 300px;
+  width: 500px;
+}
+
+.todo-add-field {
+  width: 100%;
+  border-image: none;
+  border-radius: 8px;
+  padding: 0.75rem;
+  border: 1px solid rgb(160 160 160);
+}
+
+.todo-add-field:focus-visible {
+  border: 1px solid transparent;
+}
+
+.todo-items {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.todo-item {
+  width: 100%;
+  position: relative;
+}
+
+.todo-item input:not(input[type="checkbox"]) {
+  width: 100%;
+  border-image: none;
+  padding: 1rem 3rem 1rem 1.5rem;
+  border: none;
+  border-bottom: 1px solid rgb(160 160 160);
+  font-size: 16px;
+}
+
+.todo-item input:not(input[type="checkbox"]):focus-visible {
+  outline: none;
+}
+
+.todo-checkbox {
+  position: absolute;
+  cursor: pointer;
+  top: 18px;
+  left: 5px;
+}
+
+.todo-remove-btn {
+  position: absolute;
+  cursor: pointer;
+  right: 5px;
+  top: 8px;
+}
+
+.line-through {
+  text-decoration-line: line-through;
+}
