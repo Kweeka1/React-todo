@@ -1,0 +1,19 @@
+.about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  width: 70%;
+  padding: 4rem 0;
+}
+
+.about-title {
+  margin-bottom: 2rem;
+}
+
+.about-text {
+  font-size-adjust: 0.5;
+  line-height: calc(1ex / 0.32);
+}
