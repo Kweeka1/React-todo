@@ -1,0 +1,27 @@
+.sidebar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100vh;
+}
+
+.active {
+  background-color: brown;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1.5rem;
+}
+
+.sidebar-close {
+  cursor: pointer;
+}
+
+.sidebar-link {
+  text-decoration-line: none;
+  color: rgb(240 240 240);
+}
